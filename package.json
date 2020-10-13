@@ -4,9 +4,9 @@
   "scripts": {
     "test": "jest",
     "lint:tsc": "tsc",
-    "lint:eslint": "eslint 'src/**/*.ts'",
+    "lint:eslint": "eslint src/*.ts",
     "lint": "yarn lint:tsc && yarn lint:eslint",
-    "format": "prettier --write 'src/**/*.ts' && yarn lint:eslint --fix"
+    "format": "prettier --write src/*.ts && yarn lint:eslint --fix"
   },
   "devDependencies": {
     "@types/jest": "^26.0.3",
